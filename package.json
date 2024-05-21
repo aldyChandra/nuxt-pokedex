@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vue/apollo-composable": "^4.0.2",
+    "graphql": "^16.8.1",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.212",
+    "@unocss/nuxt": "^0.60.3",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0"
+  }
+}
